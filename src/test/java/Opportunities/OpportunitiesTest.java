@@ -2,7 +2,7 @@ package Opportunities;
 
 import org.testng.annotations.Test;
 
-public class Opportunities_testnew
+public class OpportunitiesTest
 {
 
 		
