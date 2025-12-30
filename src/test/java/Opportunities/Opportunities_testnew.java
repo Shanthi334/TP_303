@@ -7,7 +7,7 @@ public class Opportunities_testnew
 
 		
 @Test
-public void m1()
+ public void m1()
 {
 	System.out.println("created");
 	

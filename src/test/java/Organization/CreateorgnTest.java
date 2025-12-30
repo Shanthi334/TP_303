@@ -8,6 +8,7 @@ public class CreateorgnTest
 	public void m2()
 	{
 		System.out.println("orgn");
+		System.out.println("orgn1");
 	}
 
 }
