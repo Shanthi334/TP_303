@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class CreateProductsTest {
 	
-	@Test
+	@Test(groups = "smoke")
 	public void leads() {
 		System.out.println("--Products1--");
 		System.out.println("pratheep raj");
