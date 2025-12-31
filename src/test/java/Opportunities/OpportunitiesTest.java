@@ -6,7 +6,7 @@ public class OpportunitiesTest
 {
 
 		
-@Test
+@Test(groups = "smoke")
  public void m1()
 {
 	System.out.println("created");

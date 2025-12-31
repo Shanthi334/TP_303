@@ -58,6 +58,52 @@
     <version>1.18.38</version>
 </dependency>
 
+<profiles>
+ <profile>
+ <id>sm</id>
+ <build>
+ <pluginManagement>
+ <plugins>
+ 
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.5.4</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>groups.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+</plugins>
+  </pluginManagement>
+ </build>
+ </profile>
+ 
+ <profile>
+ <id>reg</id>
+ <build>
+ <pluginManagement>
+ <plugins>
+ 
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.5.4</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>groups.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+</plugins>
+  </pluginManagement>
+ </build>
+ </profile>
+ </profiles>
+ 
+  
+
 
 
 
