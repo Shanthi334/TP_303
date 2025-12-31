@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class CreateorgnTest 
 {
-	@Test
+	@Test(groups = "smoke")
 	public void m2()
 	{
 		System.out.println("orgn");
