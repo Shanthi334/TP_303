@@ -7,6 +7,7 @@ public class Opportunities_testnew
 
 	int a= 10;
 	int b=20;
-	System.out.println();
+	System.out.println("jygyu");
+	
 	}
 }
